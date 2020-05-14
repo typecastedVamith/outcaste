@@ -1,0 +1,15 @@
+<?xml version = "1.0"?>
+<class Feature = "Login">
+   <ExistingCustomerLoginButton id = "in.amazon.mShop.android.shopping:id/sign_in_button" class = "android.widget.Button"/>
+   <ExistingCustomerEnterMobileno className = "android.widget.EditText"/>
+   <ExistingCustomerCotinue className = "android.widget.Button"/>
+   <ExistingCustomerEnterPwd className = "android.widget.EditText"/>
+   <SearchProduct id="in.amazon.mShop.android.shopping:id/chrome_action_bar_search"/>
+   <VoiceSerch id="in.amazon.mShop.android.shopping:id/chrome_voice_btn_icon"/>
+   <ProgressBar id="android.widget.ProgressBar"/>
+   <SearchProductinsrc className = "android.widget.EditText"/>
+   <PrimeEligible xpath="//android.view.View[@text='Prime Eligible']"/>
+   <CheckoutPrice xpath="//android.view.View/android.widget.EditText"/>
+   <CheckoutProductInfo xpath="//android.view.View[@resource-id='titleExpanderContent']/android.view.View/android.view.View"/>
+   <submit name="signInSubmit"/>
+</class>
