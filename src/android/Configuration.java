@@ -27,6 +27,14 @@ public class Configuration {
 		return parseTestData("productSearch");
 	}
 	
+	public static String appActivity() {
+		return parseTestData("activity");
+	}
+	
+	public static String appPackage() {
+		return parseTestData("package");
+	}
+	
 
 	@SuppressWarnings("unused")
 	private static String parseTestData(String key) {

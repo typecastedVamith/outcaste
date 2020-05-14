@@ -91,7 +91,6 @@ public class Helper {
 		androiddriver.toggleData();
 		androiddriver.toggleLocationServices();
 		androiddriver.toggleWifi();
-	//	toastMessage=driver.findElement(By.xpath("//android.widget.Toast[1]")).getAttribute("name");
 
 	}
 	
