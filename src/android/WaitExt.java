@@ -49,7 +49,7 @@ public class WaitExt {
 	
 	@SuppressWarnings("unchecked")
 	private WebElement locator(String screen,String Ele, String ltr) {
-		File inputFile = new File(System.getProperty("user.dir")+"\\ObjectRepository\\testdata.json");
+		File inputFile = new File(System.getProperty("user.dir")+"\\ObjectRepository\\Login.xml");
         List<Node> nodes;
 		try {
 			nodes = new SAXReader().read( inputFile ).getRootElement().selectNodes("/class/"+Ele);

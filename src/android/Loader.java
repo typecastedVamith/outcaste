@@ -15,7 +15,9 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class Loader {
 
-	 public static void main(String[] args) throws IOException, InterruptedException{	
+	
+	@Test
+	public static void main(String[] args) throws IOException, InterruptedException{	
 		// Has to be run externally as a batch	
 		//Runtime.getRuntime().exec(System.getProperty("user.dir")+"\\StartNode.bat");
 		

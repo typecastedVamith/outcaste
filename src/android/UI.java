@@ -59,6 +59,7 @@ public class UI {
 		((AndroidDriver<AndroidElement>) driver).pressKey(new KeyEvent(AndroidKey.ENTER));
 	}
 	
+	
 	// Extract text from webElements
 	public String extractText(String screen,String Element,String locatorType) {
 		return locator(screen,Element,locatorType).getText();
@@ -67,7 +68,7 @@ public class UI {
 	// returns webElement based on type(id/x-path/class/text) to the caller
 	@SuppressWarnings("unchecked")
 	private WebElement locator(String screen,String Ele, String ltr) {
-		File inputFile = new File(System.getProperty("user.dir")+"\\ObjectRepository\\testdata.json");
+		File inputFile = new File(System.getProperty("user.dir")+"\\ObjectRepository\\Login.xml");
         List<Node> nodes;
 		try {
 			nodes = new SAXReader().read( inputFile ).getRootElement().selectNodes("/class/"+Ele);
